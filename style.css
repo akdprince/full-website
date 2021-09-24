@@ -16,6 +16,7 @@ h2{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    
 }
 .half-side img{
     width: 100%;
@@ -29,6 +30,11 @@ h2{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.bottom{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 section{
     height: 500px;
@@ -51,4 +57,24 @@ section{
     font-size: 20px;
     color: whitesmoke;
     font-weight: 700;
+}
+.single-side{
+    box-shadow: 10px 10px 40px gray;
+    border-radius:10px;
+    height: 80%;
+    background-color: white;
+}
+#professional{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,midnightblue);
+    border-image-slice: 1;
+    
+}
+.footer-bar{
+    text-align: center;
 }
