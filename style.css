@@ -5,7 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-.first-highlight{
+h2{
+    font-size: 40px;
+}
+.blue-highlight{
     color: blue;
 }
 .half-side{
@@ -20,6 +23,12 @@ h1{
 .top-background{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+}
+.middle-background{
+    background-image: url("images/middle.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
 section{
     height: 500px;
